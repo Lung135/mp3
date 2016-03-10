@@ -1,1 +1,108 @@
-// Add any custom Sass & CSS here
+.movieGalleryContainer {
+	padding: 5px;
+	transition: all .2s ease-in-out;
+
+	a {
+		img:hover {
+			transform: scale(1.2);
+		}
+	}
+}
+
+.movieDetail {
+	h1 {
+		text-align: center;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
+.btnContainer {
+	padding: 3px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.full-width {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: initial;
+}
+
+.navbar {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	z-index: 1000;
+	background: $darkgrey;
+}
+
+#navbar-links {
+	float: center;
+	position: relative;
+	margin-top: 6px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#navbar-links a {
+	font-size: 20px;
+	text-align: center;
+	color: $lightgray;
+	text-decoration: none;
+
+	padding-left: 12px;
+	padding-right: 12px;
+	font-family: $font_heading;
+/*	border-bottom: 2px solid $lightgray;
+	border-top: 2px solid $lightgray;*/
+}
+
+#navbar-links a:hover {
+	border-bottom: 2px solid $white;
+	border-top: 2px solid $white;
+	color: $white;
+}
+
+.main-view-window {
+	margin-top: 60px;
+}
+
+.detailsPoster {
+	height: 200px;
+}
+
+.movieListItem {
+	margin-top: 4px;
+	background-color: $offwhite;
+	img {
+		height: 125px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+}
+
+.movieListItem:hover {
+	background-color: $lightgray;
+}
+
+nav {
+	background-color: black;
+}
+
+.listInfo {
+	color: black;
+}
